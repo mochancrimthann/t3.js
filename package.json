@@ -1,12 +1,12 @@
 {
-  "name": "t3",
+  "name": "t3.js",
   "version": "0.0.1",
   "description": "A Three.js editor fork",
   "main": "build/three.js",
   "module": "build/three.module.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mochancrimthann/three.js"
+    "url": "https://github.com/mochancrimthann/t3.js"
   },
   "sideEffects": false,
   "files": [
@@ -109,7 +109,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mochancrimthann/three.js/issues"
+    "url": "https://github.com/mochancrimthann/t3.js/issues"
   },
   "homepage": "https://kitsu.cafe",
   "devDependencies": {
