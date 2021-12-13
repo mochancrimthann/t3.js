@@ -23,7 +23,7 @@ function MenubarHelp( editor ) {
 	option.setTextContent( strings.getKey( 'menubar/help/source_code' ) );
 	option.onClick( function () {
 
-		window.open( 'https://github.com/mrdoob/three.js/tree/master/editor', '_blank' );
+		window.open( 'https://github.com/mochancrimthann/three.js/tree/dev/editor', '_blank' );
 
 	} );
 	options.add( option );

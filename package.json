@@ -1,12 +1,12 @@
 {
-  "name": "three",
-  "version": "0.135.0",
-  "description": "JavaScript 3D library",
+  "name": "322",
+  "version": "0.0.1",
+  "description": "A Three.js editor fork",
   "main": "build/three.js",
   "module": "build/three.module.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrdoob/three.js"
+    "url": "https://github.com/mochancrimthann/three.js"
   },
   "sideEffects": false,
   "files": [
@@ -103,12 +103,15 @@
     "svg",
     "html5"
   ],
-  "author": "mrdoob",
+  "author": "Mochan <shibamet@protonmail.com> (https://kitsu.cafe)",
+  "contributors": [
+    "mrdoob"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrdoob/three.js/issues"
+    "url": "https://github.com/mochancrimthann/three.js/issues"
   },
-  "homepage": "https://threejs.org/",
+  "homepage": "https://kitsu.cafe",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/eslint-parser": "^7.15.7",
