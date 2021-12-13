@@ -87,30 +87,7 @@ function MenubarFile(editor) {
 			return
 		}
 
-
-		// Step through animation, sampling at N FPS
-		// Create popup with configuration options?
-
 		ExportSpritesheet(editor)
-
-		// const geometry = object.geometry
-
-		// if (geometry === undefined) {
-
-		// 	alert('The selected object doesn\'t have geometry.')
-		// 	return
-		// }
-
-		// const output = geometry.toJSON()
-
-		// try {
-		// 	output = JSON.stringify(output, null, '\t')
-		// 	output = output.replace(/[\n\t]+([\d\.e\-\[\]]+)/g, '$1')
-		// } catch (e) {
-		// 	output = JSON.stringify(output)
-		// }
-
-		// saveString(output, 'spritesheet.png')
 	})
 
 	options.add(option)
