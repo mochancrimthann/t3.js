@@ -1293,7 +1293,7 @@ class UIDialog extends UIDiv {
 		this.addClass('Modal')
 
 		this.header = new UIDiv()
-		this.header.addClass('Header')
+		this.header.addClass('Header').addClass("Flex").addClass("Flex-End")
 
 		this.body = new UIDiv()
 		this.body.add(content)

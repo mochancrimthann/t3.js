@@ -580,9 +580,10 @@ select {
 
 .Modal .Header {
 	display: flex;
-	justify-content: flex-end;
 	align-items: center;
-	margin-bottom: 4px;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #999;
 }
 
 .Modal .Title {
@@ -596,6 +597,14 @@ select {
 .Modal .Row {
 	min-height: 20px;
 	margin-bottom: 10px;
+}
+
+.Flex {
+	display: flex;
+}
+
+.Flex-End {
+	justify-content: flex-end;
 }
 
 /* DARK MODE */
@@ -733,5 +742,9 @@ select {
 	.Modal {
 		background-color: #111;
 		color: #888;
+	}
+
+	.Modal .Header {
+		border-bottom-color: #222;
 	}
 }

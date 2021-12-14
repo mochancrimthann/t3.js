@@ -20,6 +20,7 @@ const createConfig = (editor) => {
 	const selected = editor.selected
 	const root = new UIDiv()
 
+	// Animation
 	const rowOne = new UIRow()
 	const animationLabel = new UIText('Animation').setWidth('90px')
 	const animationSelect = new UISelect()
@@ -31,6 +32,7 @@ const createConfig = (editor) => {
 	rowOne.add(animationLabel, animationSelect)
 	root.add(rowOne)
 
+	// Camera
 	const rowTwo = new UIRow()
 	const cameraLabel = new UIText('Camera').setWidth('90px')
 	const cameraSelect = new UISelect()
@@ -45,8 +47,10 @@ const createConfig = (editor) => {
 	rowTwo.add(cameraLabel, cameraSelect)
 	root.add(rowTwo)
 
+	// Cell size
 	const rowThree = new UIRow()
 	const cellLabel = new UIText('Cell Size').setWidth('90px')
+
 	const heightInput = new UIInteger().setWidth('100px')
 	heightInput.min = 1
 	heightInput.setValue(150)
@@ -58,6 +62,7 @@ const createConfig = (editor) => {
 	rowThree.add(cellLabel, widthInput, heightInput)
 	root.add(rowThree)
 
+	// FPS
 	const rowFour = new UIRow()
 	const fpsLabel = new UIText('FPS').setWidth('90px')
 	const fpsInput = new UIInteger().setWidth('100px')
@@ -80,6 +85,7 @@ const createConfig = (editor) => {
 const createButton = fn => {
 	const row = new UIRow()
 	const button = new UIButton('Export')
+	row.addClass("Flex").addClass("Flex-End")
 	button.dom.addEventListener('click', fn)
 	row.add(button)
 	return row
