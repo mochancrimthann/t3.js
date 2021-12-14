@@ -567,6 +567,46 @@ select {
 
 }
 
+.Modal {
+	background: #eee;
+	color: #888;
+	padding: 8px;
+	position: fixed;
+  top: 50%;
+  left: 50%;
+	min-width: 150px;
+  transform: translate(-50%, -50%);
+}
+
+.Modal .Header {
+	display: flex;
+	align-items: center;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #999;
+}
+
+.Modal .Title {
+	flex-grow: 1;
+}
+
+.Modal .Close {
+	flex-grow: 0;
+}
+
+.Modal .Row {
+	min-height: 20px;
+	margin-bottom: 10px;
+}
+
+.Flex {
+	display: flex;
+}
+
+.Flex-End {
+	justify-content: flex-end;
+}
+
 /* DARK MODE */
 
 @media ( prefers-color-scheme: dark ) {
@@ -699,4 +739,12 @@ select {
 		background-color: rgba(21,60,94,1);
 	}
 
+	.Modal {
+		background-color: #111;
+		color: #888;
+	}
+
+	.Modal .Header {
+		border-bottom-color: #222;
+	}
 }
